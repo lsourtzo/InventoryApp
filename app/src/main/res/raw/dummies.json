@@ -1,0 +1,84 @@
+{
+  "Products": [
+    {
+      "image": "dummie_tech_1",
+      "name": "Vertical Wireless Color Forecast Station ",
+      "category": 0,
+      "price": 43.15,
+      "quantity": 13,
+      "supplier": 0
+    },
+    {
+      "image": "dummie_tool_1",
+      "name": "Ergotop - Multiprofil Metal Frame Pliers",
+      "category": 1,
+      "price": 60.71,
+      "quantity": 12,
+      "supplier": 2
+    },
+    {
+      "image": "dummie_clothes_1",
+      "name": "Fitwarm 16 Chest Spring Pink Dog Clothes Medium",
+      "category": 2,
+      "price": 7.99,
+      "quantity": 2,
+      "supplier": 3
+    },
+    {
+      "image": "dummie_tech_2",
+      "name": "High Quality MP3 Audio Recorder and Player Module",
+      "category": 0,
+      "price": 19.98,
+      "quantity": 10,
+      "supplier": 1
+    },
+    {
+      "image": "dummie_clothes_2",
+      "name": "Fitwarm 16 Chest Wedding Dog Dress Medium Pet",
+      "category": 2,
+      "price": 7.99,
+      "quantity": 23,
+      "supplier": 3
+    },
+    {
+      "image": "dummie_home_1",
+      "name": "Greendale Home Fashions Outdoor Dining Chair Cushion ",
+      "category": 3,
+      "price": 63.98,
+      "quantity": 129,
+      "supplier": 2
+    },
+    {
+      "image": "dummie_clothes_3",
+      "name": "Jordan Spike Forty Mens",
+      "category": 2,
+      "price": 126.99,
+      "quantity": 1,
+      "supplier": 3
+    },
+    {
+      "image": "dummie_tool_2",
+      "name": "Makita BSS610 18v LXT Circular Saw",
+      "category": 1,
+      "price": 195.45,
+      "quantity": 3,
+      "supplier": 2
+    },
+    {
+      "image": "dummie_tech_3",
+      "name": "Memory Stic Star Wars R2-D2 Robot ",
+      "category": 0,
+      "price": 8.15,
+      "quantity": 23,
+      "supplier": 1
+    },
+    {
+      "image": "dummie_home_2",
+      "name": "Outdoor Garden Decor Art Vintage Fountain Water Sounds",
+      "category": 3,
+      "price": 274.85,
+      "quantity": 2,
+      "supplier": 2
+    }
+  ]
+}

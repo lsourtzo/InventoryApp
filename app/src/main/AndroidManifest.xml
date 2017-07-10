@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lsourtzo.app.inventroryapp">
+
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/inventory_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/inventory_rounded_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CatalogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddEditActivity"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".CatalogActivity" >
+            <!-- this one show a back icon in toolbar -->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CatalogActivity" />
+        </activity>
+        <provider
+            android:name=".data.ProductProvider"
+            android:authorities="com.lsourtzo.app.inventroryapp"
+            android:exported="false" />
+    </application>
+
+</manifest>

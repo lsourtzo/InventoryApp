@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#607d8b</color>
+    <color name="colorAccent">#607d8b</color>
+
+    <color name="colorstart">#607d8b</color>
+    <color name="colorend">#ffffff</color>
+    <color name="colormidle">#90a4ae</color>
+
+    <color name="colorlink">#006597</color>
+
+    <color name="shadowtextColor">#ffffff</color>
+
+    <!-- drawer colors -->
+    <color name="textTitleColor">#263238</color>
+    <color name="textColor">#455a64</color>
+    <color name="textBackGroundColor">#00fbe9e7</color>
+
+    <!-- BookList Colors -->
+    <color name="ListItem">#f1f1f1</color>
+    <color name="ListItemLine">#37474f</color>
+    <color name="ListBackGround">#81efebe9</color>
+    <color name="ListBackGroundPressed">#8197928f</color>
+    <color name="ListBackGround2">#efebe9</color>
+    <color name="ListText">#455a64</color>
+</resources>

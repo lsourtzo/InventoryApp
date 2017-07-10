@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Margin around the floating action button in CatalogActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Common margin value used throughout the app -->
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!-- List Item Dimensions -->
+    <!-- sizes and spaces -->
+    <dimen name="list_item_space_extreme_big">40dp</dimen>
+    <dimen name="list_item_space_very_big">22dp</dimen>
+    <dimen name="list_item_space_big">16dp</dimen>
+    <dimen name="list_item_space_medium">10dp</dimen>
+    <dimen name="list_item_space_small">5dp</dimen>
+
+    <dimen name="list_item_height">180dp</dimen>
+    <dimen name="list_item_photo_height">100dp</dimen>
+    <dimen name="list_item_photo_width">80dp</dimen>
+
+    <!-- texts -->
+    <dimen name="list_item_text_very_big">22sp</dimen>
+    <dimen name="list_item_text_big">19sp</dimen>
+    <dimen name="list_item_text_medium">16sp</dimen>
+    <dimen name="list_item_text_small">14sp</dimen>
+    <dimen name="list_item_text_very_small">12sp</dimen>
+
+    <!-- Add Edit Screen Dimensions -->
+    <!-- sizes and spaces -->
+    <dimen name="add_edit_photo_height">200dp</dimen>
+    <dimen name="add_edit_photo_width">160dp</dimen>
+    <dimen name="add_edit_line_height">50dp</dimen>
+
+</resources>
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application -->
+    <string name="app_name">"Inventory App"</string>
+
+    <!-- Detail activity titles -->
+    <string name="activity_add">"Add new Product"</string>
+    <string name="activity_edit">"Edit Product"</string>
+
+    <!-- titles -->
+    <string name="title_name">Name</string>
+    <string name="title_cat">Category</string>
+    <string name="title_price">"Price :"</string>
+    <string name="title_available">"Available :"</string>
+    <string name="title_supplier">"Supplier :"</string>
+    <string name="title_supplier_see_other_items">"Supplier other items"</string>
+    <string name="title_buy_one">"Sell one"</string>
+    <string name="title_order_more">"Order more"</string>
+    <string name="title_quantity">"Quantity :"</string>
+    <string name="title_carrency">"€"</string>
+
+    <!-- empty list message -->
+    <string name="empty_list_main">"Oops ..."</string>
+    <string name="empty_list_subtitle1">"looks like the list is empty \n add a product or dummies data"</string>
+    <string name="empty_list_subtitle2">""</string>
+    <string name="empty_list_add_dummies">"Add Dummies Data"</string>
+
+    <!-- Category Spinner -->
+    <string name="cat_technology">TECHNOLOGY</string>
+    <string name="cat_tools">TOOLS</string>
+    <string name="cat_clothes">CLOTHES SHOES</string>
+    <string name="cat_home">GARDEN HOME</string>
+
+    <!-- Supplier Spinner -->
+    <string name="supplier_lio_gets">LIO GETS</string>
+    <string name="supplier_nick_the_freak">NICK THE FREAK</string>
+    <string name="supplier_neo_tech">NEO TECH</string>
+    <string name="supplier_gardener">GARDENER</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="photo_msg">Add photo from :</string>
+    <string name="photo_library">Library</string>
+    <string name="photo_camera">Camera</string>
+
+    <!--add, delete and update product messages -->
+    <string name="correct_update_message">Product updated</string>
+    <string name="error_update_message">Error with updating product</string>
+    <string name="correct_add_message">Product saved</string>
+    <string name="error_add_message">Error with saving product</string>
+    <string name="correct_delete_message">Product delete</string>
+    <string name="error_delete_message">Error with deleting product</string>
+
+    <!-- Error messages -->
+    <string name="name_error_msg">Name must be not empty</string>
+    <string name="price_error_msg">Price must be greater than 0</string>
+    <string name="quantity_error_msg">Quantity must be greater or equal to 0</string>
+    <string name="image_error_msg">Please select a photo</string>
+    <string name="change_quantity_error_msg">There is no left that many items</string>
+    <string name="change_quantity_zero_error_msg">"You can't add 0 items"</string>
+    <string name="no_email_client_error_msg">"There are no email clients installed."</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current Product -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog message to ask the user to confirm Quantity of the product has updated -->
+    <string name="quantity_update_msg">Quantity updated</string>
+
+    <!-- email strings -->
+    <string name="emailbasic">info@myinventoryapp.com</string>
+    <string name="email_gardener">info@gardener.gr</string>
+    <string name="email_liogets">anything_you_want@liogets.com</string>
+    <string name="email_neotech">info@neothech.com</string>
+    <string name="email_nickthefreak">info@nickthefreak.gr</string>
+    <string name="email_subject">Inventory App Ordering Email</string>
+    <string name="email_message1">Ordering Product :</string>
+    <string name="email_message2">"\n  Quantity :"</string>
+    <string name="email_send">Send Email</string>
+
+    <!-- categories and suppliers -->
+    <string name="clothes_and_Shoes">CLOTHES AND SHOES</string>
+    <string name="home_garden">HOME AND GARDEN</string>
+    <string name="technology">TECHNOLOGY</string>
+    <string name="tools">TOOLS</string>
+    <string name="gardener">GARDENER</string>
+    <string name="liogets">LIO GETS</string>
+    <string name="neothech">NEO TECH</string>
+    <string name="nickthefreak">NICK THE FREAK</string>
+
+    <!-- messages -->
+    <string name="message_action_save">Save</string>
+    <string name="message_action_delete">Delete</string>
+    <string name="message_insert_product_successful">Product Saved</string>
+    <string name="message_insert_product_failed">Error with saving product</string>
+    <string name="message_update_product_successful">Product Update</string>
+    <string name="message_update_product_failed">Error with updating product</string>
+    <string name="message_delete_product_successful">Product Delete</string>
+    <string name="message_delete_product_failed">Error with deleting product</string>
+    <string name="message_unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="message_discard">Discard</string>
+    <string name="message_keep_editing">Keep Editing</string>
+    <string name="message_delete_dialog_msg">Delete this product?</string>
+    <string name="message_delete">Delete</string>
+    <string name="message_cancel">Cancel</string>
+
+    <!-- other string -->
+    <string name="dummiesAddSuccessful">Dummies data added successful</string>
+    <string name="message_delete_all_database">Are you really want to delete the whole database ?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="sellOne">Congratulations!! You have just sell one of this</string>
+    <string name="noItemLeft">There is no items left</string>
+    <string name="EditProductTitle">Edit Product</string>
+    <string name="AddNewProductTitle">Add New Product</string>
+    <string name="product">Product :</string>
+    <string name="category">Category :</string>
+    <string name="price">Price :</string>
+    <string name="supplier">Supplier :</string>
+    <string name="quantity">Quantity :</string>
+    <string name="contact_with_supplier">Order More From Supplier</string>
+
+
+</resources>

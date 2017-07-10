@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/list_item_space_big"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="@dimen/add_edit_photo_height"
+                android:layout_height="@dimen/add_edit_photo_width"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/list_item_space_extreme_big">
+
+                <ImageView
+                    android:id="@+id/addEditPhoto"
+                    android:layout_width="@dimen/add_edit_photo_height"
+                    android:layout_height="@dimen/add_edit_photo_width"
+                    android:src="@drawable/nophoto" />
+
+                <ImageView
+                    android:id="@+id/addEditAddPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:alpha="0.35"
+                    android:background="@drawable/button_custom"
+                    android:clickable="true"
+                    android:src="@drawable/ic_photo_camera" />
+
+            </RelativeLayout>
+
+            <!-- Product Name -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/product"
+                    android:textSize="@dimen/list_item_text_big"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/addEditProductName"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="@dimen/list_item_text_big" />
+            </LinearLayout>
+
+            <!-- Category -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_edit_line_height"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category"
+                    android:textSize="@dimen/list_item_text_big"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/addEditCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/list_item_text_big" />
+            </LinearLayout>
+
+            <!-- Price -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_edit_line_height"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price"
+                    android:textSize="@dimen/list_item_text_big"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <EditText
+                        android:id="@+id/addEditPrice"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:textSize="@dimen/list_item_text_big" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text=" €"
+                        android:textSize="@dimen/list_item_text_big"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Supplier  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_edit_line_height"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supplier"
+                    android:textSize="@dimen/list_item_text_big"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/addEditSupplier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/list_item_text_big" />
+            </LinearLayout>
+
+            <!-- Quantity -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_edit_line_height"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quantity"
+                    android:textSize="@dimen/list_item_text_big"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="6.5">
+
+                    <EditText
+                        android:id="@+id/addEditQuantity"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2.5"
+                        android:inputType="number"
+                        android:textSize="@dimen/list_item_text_big" />
+
+                    <TextView
+                        android:id="@+id/addEditQuantityDecrease"
+                        style="@style/IncreaseDecreaseButtonsStyle"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/addEditChangeQuantity"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textSize="@dimen/list_item_text_big" />
+
+                    <TextView
+                        android:id="@+id/addEditQuantityIncrease"
+                        style="@style/IncreaseDecreaseButtonsStyle"
+                        android:text="+" />
+
+                    <TextView
+                        android:id="@+id/addEditQuantityApply"
+                        android:text="Apply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/list_item_space_medium"
+                        android:background="@drawable/button_custom"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/list_item_space_medium"
+                        android:paddingRight="@dimen/list_item_space_medium"
+                        android:textSize="@dimen/list_item_text_big"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Contact Supplier  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/contactSupplier"
+                    android:text="@string/contact_with_supplier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/list_item_space_extreme_big"
+                    android:layout_marginTop="@dimen/list_item_space_extreme_big"
+                    android:background="@drawable/button_custom"
+                    android:clickable="true"
+                    android:gravity="right|bottom"
+                    android:padding="@dimen/list_item_space_medium"
+                    android:textSize="@dimen/list_item_text_big"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
